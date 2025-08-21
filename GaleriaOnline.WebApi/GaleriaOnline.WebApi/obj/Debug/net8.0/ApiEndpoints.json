@@ -53,6 +53,22 @@
   },
   {
     "ContainingType": "GaleriaOnline.WebApi.Controllers.ImagemController",
+    "Method": "DeletarImagem",
+    "RelativePath": "api/Imagem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GaleriaOnline.WebApi.Controllers.ImagemController",
     "Method": "UploadImagem",
     "RelativePath": "api/Imagem/upload",
     "HttpMethod": "POST",

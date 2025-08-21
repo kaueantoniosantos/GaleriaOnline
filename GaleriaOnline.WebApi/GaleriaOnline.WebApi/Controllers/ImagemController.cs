@@ -137,33 +137,43 @@ namespace GaleriaOnline.WebApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletarImagem(int id)
         {
+            // 1. Primeiro, encontre a imagem no banco de dados.
             var imagem = await _repository.GetByIdAsync(id);
             if (imagem == null)
             {
-                return NotFound("imagem não encontrada ");
+                // Se a imagem não for encontrada, retorne NotFound.
+                return NotFound("Imagem não encontrada.");
             }
 
+            // 2. Tente apagar o arquivo físico no disco.
             var caminhoFisico = Path.Combine(Directory.GetCurrentDirectory(), imagem.Caminho.Replace("/", Path.DirectorySeparatorChar.ToString()));
 
+            // Verifique se o arquivo existe antes de tentar apagar.
             if (System.IO.File.Exists(caminhoFisico))
             {
                 try
                 {
                     System.IO.File.Delete(caminhoFisico);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
-                    return StatusCode(500, $"Erro ao excluir o arquivo: {ex.Message}");
+                    // Se der erro ao apagar o arquivo, você pode registrar o erro,
+                    // mas ainda assim tentar apagar o registro do banco.
+                    Console.WriteLine($"Erro ao excluir o arquivo físico: {ex.Message}");
                 }
-
-                var deletado = await _repository.DeleteAsync(id);
-                if (!deletado)
-                {
-                    return StatusCode(500, "Erro ao excluir a imagem do banco"); 
-                }
-
-                return NoContent();
             }
+
+            // 3. Em seguida, apague o registro do banco de dados.
+            // Esta é a parte mais importante.
+            var deletado = await _repository.DeleteAsync(id);
+            if (!deletado)
+            {
+                // Se der erro ao apagar do banco, retorne um erro 500.
+                return StatusCode(500, "Erro ao excluir a imagem do banco de dados.");
+            }
+
+            // 4. Se tudo deu certo, retorne o status 204 (NoContent).
+            return NoContent();
         }
     }
 }
