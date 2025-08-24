@@ -50,7 +50,6 @@ export const Galeria = () => {
                 < Card tituloCard="Ralphzinho"/>
                 < Card tituloCard="Ralphzinho"/>
                 < Card tituloCard="Ralphzinho"/>
-                < Card tituloCard="Ralphzinho"/>
             </div>
         </>
     )
