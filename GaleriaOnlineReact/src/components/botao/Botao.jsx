@@ -1,8 +1,8 @@
 import "./Botao.css"
 
-export const Botao = ({ nomeBotao }) => {
+export const Botao = ({ nomeBotao, funcaoDoBotao }) => {
     return (
-        <button className="botao" onClick="" type="submit">
+        <button className="botao" onClick={funcaoDoBotao} type="submit">
             {nomeBotao}
         </button>
     )
