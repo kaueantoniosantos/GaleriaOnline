@@ -1,11 +1,10 @@
 import './Galeria.css'
+
 import icon from "../../assets/img/upload.svg"
 import { Botao } from '../../components/botao/Botao'
 import { Card } from '../../components/card/Card'
 import { useEffect, useState } from 'react'
 import api from '../../Services/services'
-import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content';
 
 export const Galeria = () => {
 
@@ -15,18 +14,25 @@ export const Galeria = () => {
 
     async function listarCards() {
         try {
-            const resposta = await api.get("Imagem")
+            const resposta = await api.get("Imagem");
+            // console.log(resposta.data);
             setCards(resposta.data);
+
         } catch (error) {
-            console.error("Erro ao listar:", error)
+            console.error("Erro ao listar: ", error);
+            alert("Erro ao listar!");
         }
     }
 
     async function cadastrarCard(e) {
+
         e.preventDefault();
+
         if (imagem && nomeImagem) {
             try {
+                //FormData é uma interface JavaScript que permite construir um conjunto de pares chave/valor representando os dados de um formulário HTML.
                 const formData = new FormData();
+                //append: anexar/acrescentar/adicionar
                 formData.append("Nome", nomeImagem);
                 formData.append("Arquivo", imagem);
 
@@ -36,15 +42,15 @@ export const Galeria = () => {
                     }
                 });
 
-                //isso aqui serve para atualizar logo assim que fizer a ação
+                alert("Eba cadastrou 👏😎🐱‍🏍😁!");
                 listarCards();
 
             } catch (error) {
-                alert("Não foi possível realizar o cadastro.");
+                alert("Não foi possível realizar o cadastro!");
                 console.error(error);
             }
         } else {
-            alert("Preencha os campos de Nome e Imagem.");
+            alert("Preencha os campos de Nome e Imagem!");
         }
     }
 
@@ -53,13 +59,17 @@ export const Galeria = () => {
 
         const inputArquivo = document.createElement("input");
         inputArquivo.type = "file";
+        //Aceita imagens independente das extensões
         inputArquivo.accept = "image/*";
         inputArquivo.style = "display: none";
+        // <input type="file" accept="image/*"></input>
 
+        // Define o que acontece quando o usuário selecionar um arquivo
         inputArquivo.onchange = async (e) => {
             const novoArquivo = e.target.files[0];
-            const formData = new FormData();
 
+            const formData = new FormData();
+            //adicionar o novo nome no formData:
             formData.append("Nome", novoNome);
             formData.append("Arquivo", novoArquivo);
 
@@ -71,6 +81,7 @@ export const Galeria = () => {
                         }
                     })
 
+                    alert("Ebaaa deu certo!😁✨");
                     listarCards();
                 } catch (error) {
                     alert("Não foi possível alterar o card!");
@@ -79,64 +90,64 @@ export const Galeria = () => {
             }
         };
 
-        inputArquivo.click()
+
+        inputArquivo.click();
+
     }
-
-
 
     async function excluirCard(id) {
         try {
-            await api.delete(`Imagem/${id}`)
+            await api.delete(`Imagem/${id}`);
+            alert("Excluidasso!!! 🤪");
+
             listarCards();
         } catch (error) {
-            alert("Erro ao excluir card.")
+            alert("Erro ao excluir o card!");
             console.error(error);
         }
     }
 
     useEffect(() => {
         listarCards();
+        // console.log("aaaaaaa");
     }, []);
 
     return (
         <>
-
-            <h1 className='tituloGaleria'>Galeria Online</h1>
-            <form className='formulario' onSubmit={cadastrarCard}>
-                <div className='campoNome'>
+            <h1 className="tituloGaleria">Galeria Online</h1>
+            <form className="formulario" onSubmit={cadastrarCard}>
+                <div className="campoNome">
                     <label>Nome</label>
-                    <input
+                    <input type="text" className='inputNome'
                         onChange={(e) => setNomeImagem(e.target.value)}
                         value={nomeImagem}
-                        type='text'
-                        className='inputNome'
                     />
                 </div>
-                <div className='campoImagem'>
-                    <label className='arquivoLabel'>
+                <div className="campoImagem">
+                    <label className="arquivoLabel">
                         <i><img src={icon} alt="Icone de upload de imagem" /></i>
-                        <input
-                            type="file"
-                            className='arquivoInput'
+                        <input type="file" className="arquivoInput"
                             onChange={(e) => setImagem(e.target.files[0])}
                         />
                     </label>
                 </div>
-                <Botao nomeBotao="Cadastrar" tipoBotao="submit" />
+                <Botao nomeBotao="Cadastrar" />
             </form>
 
             <div className='campoCards'>
                 {cards.length > 0 ? (
                     cards.map((e) => (
                         <Card
-                            funcaoEditar={() => editarCard(e.id, e.nome)}
-                            funcaoExcluir={() => excluirCard(e.id)}
                             key={e.id}
                             tituloCard={e.nome}
                             imgCard={`https://localhost:7180/${e.caminho.replace("wwwroot/", "")}`}
+                            funcaoExcluir={() => excluirCard(e.id)}
+                            funcaoEditar={() => editarCard(e.id, e.nome)}
                         />
                     ))
                 ) : <p>Nenhum card cadastrado.</p>}
+
+
             </div>
         </>
     )

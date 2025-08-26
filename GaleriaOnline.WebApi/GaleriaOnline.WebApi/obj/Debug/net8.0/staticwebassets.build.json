@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pyP3bbJAri3kBSHqC30tplrvWLfL8TezmRl6U4YPHIY=",
+  "Hash": "787zw1cp1gghvXpoVSirxyd/bAfqReGLEcs4ERVn2eU=",
   "Source": "GaleriaOnline.WebApi",
   "BasePath": "_content/GaleriaOnline.WebApi",
   "Mode": "Default",
@@ -16,27 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\206c2f0d-40e5-4f55-8592-c81b14a78561.jpg",
-      "SourceId": "GaleriaOnline.WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\",
-      "BasePath": "_content/GaleriaOnline.WebApi",
-      "RelativePath": "imagens/206c2f0d-40e5-4f55-8592-c81b14a78561#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "igfemx847q",
-      "Integrity": "wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\206c2f0d-40e5-4f55-8592-c81b14a78561.jpg"
-    },
     {
       "Identity": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg",
       "SourceId": "GaleriaOnline.WebApi",
@@ -57,91 +36,30 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
+      "SourceId": "GaleriaOnline.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\",
+      "BasePath": "_content/GaleriaOnline.WebApi",
+      "RelativePath": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "drvck4eote",
+      "Integrity": "yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\c5a449b8-7100-4c38-a481-b202aa770c6f.jpg"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "imagens/206c2f0d-40e5-4f55-8592-c81b14a78561.igfemx847q.jpg",
-      "AssetFile": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\206c2f0d-40e5-4f55-8592-c81b14a78561.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40917"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 16:59:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "igfemx847q"
-        },
-        {
-          "Name": "label",
-          "Value": "imagens/206c2f0d-40e5-4f55-8592-c81b14a78561.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA="
-        }
-      ]
-    },
-    {
-      "Route": "imagens/206c2f0d-40e5-4f55-8592-c81b14a78561.jpg",
-      "AssetFile": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\206c2f0d-40e5-4f55-8592-c81b14a78561.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40917"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 16:59:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA="
-        }
-      ]
-    },
     {
       "Route": "imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.drvck4eote.jpg",
       "AssetFile": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg",
@@ -165,7 +83,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 17:00:52 GMT"
+          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -210,7 +128,89 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 17:00:52 GMT"
+          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.drvck4eote.jpg",
+      "AssetFile": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "drvck4eote"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
+      "AssetFile": "C:\\Users\\57104262881\\Desktop\\GaleriaOnline\\GaleriaOnline.WebApi\\GaleriaOnline.WebApi\\wwwroot\\imagens\\c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
         },
         {
           "Name": "Cache-Control",
