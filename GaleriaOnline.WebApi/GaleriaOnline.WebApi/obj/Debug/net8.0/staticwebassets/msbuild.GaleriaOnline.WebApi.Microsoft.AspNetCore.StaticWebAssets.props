@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\92cfb675-8c14-417a-8aba-79c23880aa51.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GaleriaOnline.WebApi</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GaleriaOnline.WebApi</BasePath>
-      <RelativePath>imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg</RelativePath>
+      <RelativePath>imagens/92cfb675-8c14-417a-8aba-79c23880aa51.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -16,25 +16,25 @@
       <Integrity>yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\92cfb675-8c14-417a-8aba-79c23880aa51.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\c5a449b8-7100-4c38-a481-b202aa770c6f.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GaleriaOnline.WebApi</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GaleriaOnline.WebApi</BasePath>
-      <RelativePath>imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg</RelativePath>
+      <RelativePath>imagens/b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>drvck4eote</Fingerprint>
-      <Integrity>yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=</Integrity>
+      <Fingerprint>igfemx847q</Fingerprint>
+      <Integrity>wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\c5a449b8-7100-4c38-a481-b202aa770c6f.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

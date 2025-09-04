@@ -3,8 +3,8 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.drvck4eote.jpg",
-      "AssetFile": "imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg",
+      "Route": "imagens/92cfb675-8c14-417a-8aba-79c23880aa51.drvck4eote.jpg",
+      "AssetFile": "imagens/92cfb675-8c14-417a-8aba-79c23880aa51.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
+          "Value": "Tue, 26 Aug 2025 18:11:36 GMT"
         }
       ],
       "EndpointProperties": [
@@ -43,13 +43,13 @@
         },
         {
           "Name": "label",
-          "Value": "imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg"
+          "Value": "imagens/92cfb675-8c14-417a-8aba-79c23880aa51.jpg"
         }
       ]
     },
     {
-      "Route": "imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg",
-      "AssetFile": "imagens/b78bff22-cc38-4d38-b70a-fb8d9d5faa31.jpg",
+      "Route": "imagens/92cfb675-8c14-417a-8aba-79c23880aa51.jpg",
+      "AssetFile": "imagens/92cfb675-8c14-417a-8aba-79c23880aa51.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
+          "Value": "Tue, 26 Aug 2025 18:11:36 GMT"
         }
       ],
       "EndpointProperties": [
@@ -85,8 +85,8 @@
       ]
     },
     {
-      "Route": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.drvck4eote.jpg",
-      "AssetFile": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
+      "Route": "imagens/b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.igfemx847q.jpg",
+      "AssetFile": "imagens/b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -99,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22461"
+          "Value": "40917"
         },
         {
           "Name": "Content-Type",
@@ -107,31 +107,31 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=\""
+          "Value": "\"wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
+          "Value": "Tue, 26 Aug 2025 18:11:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "drvck4eote"
+          "Value": "igfemx847q"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE="
+          "Value": "sha256-wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA="
         },
         {
           "Name": "label",
-          "Value": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg"
+          "Value": "imagens/b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg"
         }
       ]
     },
     {
-      "Route": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
-      "AssetFile": "imagens/c5a449b8-7100-4c38-a481-b202aa770c6f.jpg",
+      "Route": "imagens/b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg",
+      "AssetFile": "imagens/b14a6a6f-5bf5-4f64-8bda-33de7ebfe5e1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -144,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22461"
+          "Value": "40917"
         },
         {
           "Name": "Content-Type",
@@ -152,17 +152,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE=\""
+          "Value": "\"wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Aug 2025 17:40:21 GMT"
+          "Value": "Tue, 26 Aug 2025 18:11:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yS9i9yMLPaBTx8Pxx0DIq8yU9civRDdk1snRaSC3gWE="
+          "Value": "sha256-wr+N7B3esjUToNb711qM+5gKAJxWuNCteRSZPsrLBcA="
         }
       ]
     }
