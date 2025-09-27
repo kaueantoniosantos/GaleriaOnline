@@ -2,7 +2,7 @@
 
 Este projeto é uma API para gerenciar uma galeria de imagens online. Ele permite aos usuários realizar o upload, visualização, edição e exclusão de imagens, tudo de forma eficiente através de uma API RESTful. A interface de interação principal com a API é feita através do Swagger.
 
-O projeto foi desenvolvido com foco em oferecer uma solução robusta e escalável para o gerenciamento de imagens, com uma arquitetura que suporta a futura integração com um frontend moderno.
+O projeto foi desenvolvido com foco em oferecer uma solução robusta e escalável para o gerenciamento de imagens, com uma arquitetura que suporta a integração com um frontend moderno.
 
 ## Funcionalidades da API
 
