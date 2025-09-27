@@ -35,7 +35,7 @@ Siga estes passos para configurar e executar o projeto em seu ambiente local:
 
 2.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/kaueantoniosantos/GaleriaOnline.git](https://github.com/kaueantoniosantos/GaleriaOnline.git)
+    git clone https://github.com/kaueantoniosantos/GaleriaOnline.git
     cd GaleriaOnline
     ```
 
